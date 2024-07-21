@@ -13,7 +13,7 @@ public class RewardValue {
      * Constructors
      */
     public RewardValue(Double cashValue){
-        this.cashValue = Double.parseDouble(cashValue);
+        this.cashValue = cashValue;
         this.miles = cashValue / .0035;
     }
     
